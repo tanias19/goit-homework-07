@@ -1,0 +1,189 @@
+@media screen and (min-width: 1158px) {
+  /* Body */
+
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Шапка сайту */
+
+  .nav .list {
+    margin-right: auto;
+  }
+
+  .address {
+    margin-left: auto;
+  }
+
+  .list-contact {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+  }
+
+  /* Логотип */
+
+  .nav > .link {
+    margin-right: 76px;
+  }
+
+  /* Main */
+
+  /* Hero */
+
+  .hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+  }
+
+  @media screen and (min-width: 769px) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/landingpage/bg-desk@1x.jpg);
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        /* url(../images/landingpage/bg-desk@2x.jpg); */
+    }
+  }
+
+  .hero-title {
+    margin: 0 auto 48px auto;
+  }
+
+  /* Modal Hero Window */
+
+  .modal {
+    top: 412px;
+    left: 50%;
+  }
+
+  /* Our tasks */
+
+  .tasks {
+    padding: 120px 0;
+  }
+
+  .tasks-descr {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .task-item {
+    display: block;
+    width: calc((100%-3 * 24px) / 4);
+  }
+
+  .task-icon {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 8px 0;
+    background: #f4f4fd;
+    border-radius: 4px;
+  }
+
+  .bar-name {
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  /* What are we doing */
+
+  .gallery {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .gallery .title {
+    margin-bottom: 72px;
+  }
+
+  .gallery-list {
+    display: flex;
+  }
+
+  .gallery-img {
+    display: block;
+  }
+
+  .gallery-img:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  /* Our team */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-content {
+    gap: 0 24px;
+  }
+
+  /* Customers */
+
+  .customers.container {
+    padding: 120px 15px;
+  }
+
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+  }
+  
+  .customer-icon {
+      width: 100%;
+      height: 100%;
+  }
+  /* Footer */
+
+  .footer > .container {
+    min-width: 1158px;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    padding: 100px 15px 100px 15px;
+  }
+
+  .footer-left {
+    margin: 0 120px 0 0;
+  }
+
+  /* Portfolio */
+
+  .portfolio-main-page {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  /* Projects */
+
+  .web-name {
+    margin-bottom: 8px;
+  }
+}

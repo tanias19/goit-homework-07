@@ -1,0 +1,260 @@
+@media screen and (min-width: 768px) {
+/* Body */
+
+    .container {
+        max-width: 768px;
+    }
+
+ /* Header */
+
+    .nav .list {
+        display: flex;
+        margin-right: 121px;
+    }
+
+    .menu-link {
+        position: relative;
+
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        color: var(--secondary-text-color);
+
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        text-transform: none;
+
+        transition: color var(--hover-transition);
+    }
+
+   
+.menu-item:not(:last-child) {
+        margin-right: 40px;
+    }
+.menu-link.active {
+    color: #404BBF;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.menu-link:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: none;
+}
+
+.menu-link.active:after {
+    background-color: #404BBF;
+}
+
+  .menu-item:hover .menu-link::after {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .address {
+        display: block;
+        font-style: normal;
+    }
+
+    .list-contact {
+        display: block;
+    }
+
+    .address-list:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .address-list {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17px;
+        letter-spacing: 0.04em;
+
+        color: var(--primary-text-color);
+
+        transition: color var(--hover-transition);
+    }
+
+    .address-list:hover,
+    .address-list:focus {
+        color: var(--accent-color);
+    }
+
+    .mobile-modal {
+        display: none;
+    }
+
+    .btn-burger {
+        display: none;
+    }
+
+    /* LOGO */
+
+    .nav>.link {
+        margin-right: 120px;
+    }
+
+    /* Main */
+
+    /* Her */
+
+
+    @media screen and (min-width: 429px) {
+        .overlay {
+            max-width: 1440px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/landingpage/Dark-bgbg-tablet@1x.jpg);
+        }
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .overlay {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                /* url(../images/landingpage/Dark-bgbg-tablet@2x.jpg); */
+        }
+    }
+
+    .hero-title {
+        max-width: 496px;
+        margin: 0 auto 36px auto;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    /* Modal Hero Window */
+
+    .modal {
+        padding: 72px 24px 24px 24px;
+    }
+
+
+    /* Our tasks */
+
+    .tasks-descr {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .task-item {
+        display: block;
+        width: calc((100% - 24px) / 2);
+    }
+
+    .bar-name {
+        text-align: start;
+    }
+
+
+    /* Our Team */
+
+    .team .list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px 24px;
+    }
+
+    /* Our customers */
+
+    .customers .container {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
+    .customer-item {
+        width: calc((100% - 2 * 24px) / 3);
+    }
+
+    /* Footer */
+
+    .footer>.container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: baseline;
+        padding-left: 108px;
+    }
+
+    .footer-left {
+        text-align: left;
+        margin-right: 24px;
+    }
+
+    .footer-right {
+        text-align: left;
+        margin: 0 80px 0 0;
+    }
+
+    .subscribe-field {
+        justify-content: start;
+        text-align: left;
+    }
+
+    .btn-field {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .subscribe-field input {
+        max-width: 264px;
+        height: 40px;
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+
+    .subscribe-btn {
+        margin: 0;
+    }
+
+    /* Portfolio */
+
+    .portfolio-main-page {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    /* Our projects */
+
+    .button-list {
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+
+    .btn-list {
+        justify-content: center;
+    }
+
+    .btn-item {
+        display: block;
+    }
+
+    .filter-btn {
+        padding: 12px 24px;
+    }
+
+    .web-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+    }
+}
