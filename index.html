@@ -19,32 +19,39 @@
 </head>
 
 <body>
-    <header class="header" data-header>
-        <div class="container header-container">
-            <nav class="nav">
-                <a class="logo link menu-item " href="./index.html">Web<span class="web-logo">Studio</span></a>
-                <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link active" href="./index.html"> Studio </a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="./portfolio.html"> Portfolio </a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href=""> Contacts </a>
-                    </li>
-                </ul>
-            </nav>
+<header class="header" data-header>
+    <div class="container header-container">
+        <nav class="nav">
+            <a class="logo link menu-item " href="./index.html">Web<span class="web-logo">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item">
+                    <a class="menu-link link active" href="./index.html"> Studio </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="./portfolio.html"> Portfolio </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href=""> Contacts </a>
+                </li>
+            </ul>
+        </nav>
 
-            <address class="address">
-                <ul class="list list-contact">
-                    <li><a class="address-list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li><a class="address-list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
+        <address class="address">
+            <ul class="list list-contact">
+                <li class="address-link"><a class="address-list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="address-link"><a class="address-list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+            <button class="btn-burger js-open-menu" type="button">
+                <svg class="icon-menu" width="32" height="22">
+                    <use href="./images/icons.svg#hamburger"></use>
+                </svg>
+            </button>
+            </div>
+
             <div class="mobile-modal js-menu-container">
-                <button class="btn-close-mobile js-close-menu">
+                <button class="btn-close-mobile js-close-menu" type="button">
                     <svg class="icon-close" width="8" height="8">
                         <use href="./images/icons.svg#closebtn"></use>
                     </svg>
@@ -69,32 +76,32 @@
                             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                         </li>
                     </ul>
-                    <ul class="social-list-mobile">
+                    <ul class="socials">
                         <li class="social-item-mobmenu">
-                            <a href="https://www.instagram.com" class="social-link-mobmenu" rel="noopener noreferrer"
+                            <a href="https://www.instagram.com" class="socials-link" rel="noopener noreferrer"
                                 target="_blank">
-                                <svg class="social-icon-mobmenu" width="24" height="24">
+                                <svg class="socials-icon" width="24" height="24">
                                     <use href="./images/icons.svg#instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-item-mobmenu">
-                            <a href="https://twitter.com" class="social-link-mobmenu" rel="noopener noreferrer" target="_blank">
-                                <svg class="social-icon-mobmenu" width="24" height="24">
+                            <a href="https://twitter.com" class="socials-link" rel="noopener noreferrer" target="_blank">
+                                <svg class="socials-icon" width="24" height="24">
                                     <use href="./images/icons.svg#twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-item-mobmenu">
-                            <a href="https://facebook.com" class="social-link-mobmenu" rel="noopener noreferrer" target="_blank">
-                                <svg class="social-icon-mobmenu" width="24" height="24">
+                            <a href="https://facebook.com" class="socials-link" rel="noopener noreferrer" target="_blank">
+                                <svg class="socials-icon" width="24" height="24">
                                     <use href="./images/icons.svg#facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-item-mobmenu">
-                            <a href="https://ua.linkedin.com" class="social-link-mobmenu" rel="noopener noreferrer" target="_blank">
-                                <svg class="social-icon-mobmenu" width="24" height="24">
+                            <a href="https://ua.linkedin.com" class="socials-link" rel="noopener noreferrer" target="_blank">
+                                <svg class="socials-icon" width="24" height="24">
                                     <use href="./images/icons.svg#linkedin"></use>
                                 </svg>
                             </a>
@@ -103,12 +110,7 @@
                 </div>
             </div>
             
-            <button class="btn-burger js-open-menu">
-                <svg class="icon-menu" width="32" height="22">
-                    <use href="./images/icons.svg#hamburger"></use>
-                </svg>
-            </button>
-            </div>
+          
     </header>
 
     <main>
@@ -187,23 +189,20 @@
                         <img src="./images/screen.jpg" 
                         alt="screen" 
                         width="360" 
-                        height="300"
-                        srcset="./images/images/img 1screen@1x.jpg 1x , ./images/images/img 1screen@2x.jpg 2x">
+                        height="300">
 
                     </li>
                     <li class="gallery-img">
                         <img src="./images/phoneslides.jpg" 
                         alt="phone-slides" 
                         width="360" 
-                        height="300"
-                        srcset="./images/images/img phone@1x.jpg 1x , ./images/images/img phone@2x.jpg 2x">
+                        height="300">
                     </li>
                     <li class="gallery-img">
                         <img src="./images/phone.jpg" 
                         alt="phone" 
                         width="360" 
-                        height="300"
-                        srcset="./images/images/img handmobile@1x.jpg 1x , ./images/images/img 1handmobile@2x.jpg 2x">
+                        height="300">
                     </li>
                 </ul>
             </div>
@@ -216,11 +215,11 @@
 
                 <ul class="list team-content content">
                     <li class="team-members">
-                        <img src="./images/ourteam/mark.jpg" 
+                        <img src="./images/ourteam/img_mob@1x.jpg" 
                         alt="Mark" 
                         width="264" 
                         height="260"
-                        srcset="./images/ourteam/mark@1x.jpg, ./images/ourteam/x2/mark@2x.jpg">
+                        srcset="./images/ourteam/img_mob@1x.jpg 1x, ./images/ourteam/img_mob@2x.jpg 2x">
                         <div class="employee-card">
                             <h3 class="card-name">Mark Guerrero</h3>
                             <p class="card-info">Product Designer</p>
@@ -263,11 +262,11 @@
                     </li>
 
                     <li class="team-members">
-                        <img src="./images/ourteam/tom.jpg" 
+                        <img src="./images/ourteam/img_mob@1x-1.jpg" 
                         alt="Tom" 
                         width="264" 
                         height="260"
-                        srcset="./images/ourteam/tom@1x.jpg, ./images/ourteam/x2/tom@2x.jpg">
+                        srcset="./images/ourteam/img_mob@1x-1.jpg 1x, ./images/ourteam/img_mob@2x-1.jpg 2x">
                         <div class="employee-card">
                             <h3 class="card-name">Tom Ford</h3>
                             <p class="card-info">Frontend Developer</p>
@@ -310,11 +309,11 @@
                     </li>
 
                     <li class="team-members">
-                        <img src="./images/ourteam/camila.jpg" 
+                        <img src="./images/ourteam/img_mob@1x-2.jpg" 
                         alt="Camila" 
                         width="264" 
                         height="260"
-                        srcset="./images/ourteam/camila@1x.jpg, ./images/ourteam/x2/camila@2x.jpg">>
+                        srcset="./images/ourteam/img_mob@1x-2.jpg 1x, ./images/ourteam/img_mob@2x-2.jpg 2x">
                         <div class="employee-card">
                             <h3 class="card-name">Camila Garcia</h3>
                             <p class="card-info">Marketing</p>
@@ -357,11 +356,11 @@
                     </li>
 
                     <li class="team-members">
-                        <img src="./images/ourteam/daniel.jpg" 
+                        <img src="./images/ourteam/img_mob@1x-3.jpg" 
                         alt="Daniel" 
                         width="264" 
                         height="260"
-                        srcset="./images/ourteam/daniel@1x.jpg, ./images/ourteam/x2/daniel@2x.jpg">
+                        srcset="./images/ourteam/img_mob@1x-3.jpg 1x, ./images/ourteam/img_mob@2x-3.jpg 2x">
                         <div class="employee-card">
                             <h3 class="card-name">Daniel Wilson</h3>
                             <p class="card-info">UI Designer</p>
@@ -515,7 +514,7 @@
                         </use>
                     </svg>
                 </button>
-                </div>
+            </div>
             </div>
         </div>
     </footer>
@@ -535,21 +534,21 @@
         <form class="modal-form form" name="modal_form">
             <label class="form-label" for="modal_name">Name</label>
             <div class="form-wrapper">
-                <input class="form-field" type="text" name="modal_name" id="modal_name" />
+                <input class="form-field" type="text" name="modal_name" id="modal_name">
                 <svg class="form-icon" width="18" height="24">
                     <use href="./images/icons.svg#name"></use>
                 </svg>
             </div>
             <label class="form-label" for="modal_phone">Phone</label>
             <div class="form-wrapper">
-                <input class="form-field" type="text" name="modal_phone" id="modal_phone" />
+                <input class="form-field" type="text" name="modal_phone" id="modal_phone">
                 <svg class="form-icon" width="18" height="24">
                     <use href="./images/icons.svg#phone"></use>
                 </svg>
             </div>
             <label class="form-label" for="modal_email">Email</label>
             <div class="form-wrapper">
-                <input class="form-field" type="text" name="modal_email" id="modal_email"/>
+                <input class="form-field" type="text" name="modal_email" id="modal_email">
                 <svg class="form-icon" width="18" height="24">
                     <use href="./images/icons.svg#email"></use>
                 </svg>
@@ -559,7 +558,7 @@
             <textarea class="form-comment" name="modal_comment" id="modal_comment" rows="6" placeholder="Text input"></textarea>
         
                     <label class="form-agreement">
-                        <input class="checkbox visually-hidden" type="checkbox" name="modal_agreement" value="css"/>                    
+                        <input class="checkbox visually-hidden" type="checkbox" name="modal_agreement" value="css">                    
                         <span class="icon"></span>
                         <span class="form-agreement-text">I accept the terms and conditions of the
                             <a class="form-agreement-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
