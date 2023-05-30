@@ -6,6 +6,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
     button {
       cursor: pointer;
     }
@@ -16,9 +17,9 @@
     margin-right: auto;
   }
 
-  .address {
-    margin-left: auto;
-  }
+ .address {
+   margin-left: auto;
+ }
 
   .list-contact {
     display: flex;
@@ -26,8 +27,6 @@
   }
 
   .address-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,12 +119,13 @@
   .gallery {
     display: block;
     padding-bottom: 120px;
-    padding-top: 0;
-
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .gallery-list {
     display: flex;
+    padding: 0;
   }
 
   .gallery-img {
@@ -150,7 +150,6 @@
   /* Customers */
 
   .customers>.container {
-    padding: 120px 15px;
     max-width: 1140px;
   }
 
@@ -161,6 +160,7 @@
   /* Footer */
 
   .footer-container {
+    padding-top: 100px;
     min-width: 1158px;
     display: flex;
     align-items: baseline;
@@ -168,19 +168,22 @@
   }
 
   .footer-left {
-    margin-top: 100px;
-    margin-right: 120px;
+    margin: 0 auto;
   }
+   .footer-right{
+    margin-left: 120px;
+   }
 
   .subscribe-field {
     margin-left: 80px;
   }
+  
   /* Portfolio */
 
-  .portfolio-main-page {
-    padding-top: 96px;
-    padding-bottom: 120px;
-  }
+.btn-list {
+  justify-content: center;
+  margin-bottom: 64px;
+}
 
   /* Projects */
 

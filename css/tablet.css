@@ -190,15 +190,24 @@
 
     /* Footer */
 
+    .footer {
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
     .footer-container {
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
+        max-width: 552px;
     }
 
     .footer-left {
         text-align: left;
-        margin-top: 96px;
         margin-right: 24px;
 
     }
@@ -209,7 +218,6 @@
 
     .subscribe-field {
         text-align: left;
-        margin-left: 108px;
     }
 
     .btn-field {
@@ -239,7 +247,6 @@
 
     .button-list {
         justify-content: center;
-        margin-bottom: 72px;
     }
 
     .btn-list {
@@ -259,8 +266,8 @@
         flex-wrap: wrap;
         gap: 48px 24px;
     }
-}
 
 .web-item {
     width: calc((100% - 48px) / 3);
+}
 }

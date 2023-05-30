@@ -157,7 +157,7 @@ button {
 
 .mobile-modal {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
@@ -257,6 +257,13 @@ button {
     color: #434455;
 }
 
+.socials-mob {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    list-style: none;
+}
 
 /* Main */
 
@@ -729,6 +736,8 @@ button {
 }
 
 .footer-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -737,8 +746,6 @@ button {
 
 .footer-left {
     text-align: center;
-    margin-bottom: 72px;
-    margin-top: 96px
 }
 
 .logo-dark {
@@ -949,7 +956,9 @@ opacity: 0.3;
 
     color: var(--secondary-text-color);
 }
-
+.web-info{
+    color: var(--secondary-text-color);
+}
 .web-item {
     margin: 0 auto;
     display: block;
